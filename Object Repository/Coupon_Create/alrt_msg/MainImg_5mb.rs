@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MainImg_5mb</name>
+   <tag></tag>
+   <elementGuidId>edd48b55-dbca-4bf0-928e-b326d6926347</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'5MB以下のファイルを選択して下さい')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'5MB以下のファイルを選択して下さい')]</value>
+   </webElementProperties>
+</WebElementEntity>

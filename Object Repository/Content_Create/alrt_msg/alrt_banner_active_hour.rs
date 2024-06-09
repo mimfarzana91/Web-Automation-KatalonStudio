@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>alrt_banner_active_hour</name>
+   <tag></tag>
+   <elementGuidId>0b931eb2-a462-46a7-822a-fada63c2f3e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[12]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[12]/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

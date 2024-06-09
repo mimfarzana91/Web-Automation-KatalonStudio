@@ -1,0 +1,7 @@
+bin/
+.classpath
+.project
+Data Files/
+libs/
+settings/internal/com.kms.katalon.composer.testcase.properties
+

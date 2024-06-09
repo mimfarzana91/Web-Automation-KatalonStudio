@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>jpg_png_alrt</name>
+   <tag></tag>
+   <elementGuidId>35e07cc0-2bfc-4af8-a95d-d5194ecb101a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'jpg/pngファイルを選択して下さい')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'jpg/pngファイルを選択して下さい')]</value>
+   </webElementProperties>
+</WebElementEntity>

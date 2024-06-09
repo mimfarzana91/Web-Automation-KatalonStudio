@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>start_time</name>
+   <tag></tag>
+   <elementGuidId>8c7d2212-75ae-44ef-bfdc-2771d87c1cb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*/text()[normalize-space(.)='バナー表示開始時間(時:分:秒)']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='バナー表示開始時間(時:分:秒)']/parent::*</value>
+   </webElementProperties>
+</WebElementEntity>

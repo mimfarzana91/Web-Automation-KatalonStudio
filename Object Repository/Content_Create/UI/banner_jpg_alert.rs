@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>banner_jpg_alert</name>
+   <tag></tag>
+   <elementGuidId>c6bbe732-cd5b-43c1-abec-162704aefe30</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[contains(text(),'jpg/pngファイルを選択して下さい')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[contains(text(),'jpg/pngファイルを選択して下さい')]</value>
+   </webElementProperties>
+</WebElementEntity>

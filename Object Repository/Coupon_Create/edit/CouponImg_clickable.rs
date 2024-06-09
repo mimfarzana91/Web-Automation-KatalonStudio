@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CouponImg_clickable</name>
+   <tag></tag>
+   <elementGuidId>b6c04b8d-873c-4218-bd57-3940353a1e92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[4]/app-file-uploader[1]/div[2]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[4]/app-file-uploader[1]/div[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

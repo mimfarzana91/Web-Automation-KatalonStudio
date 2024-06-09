@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>start_date</name>
+   <tag></tag>
+   <elementGuidId>74823763-17ee-4496-b502-33152fd8e195</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th['_ngcontent-ucx-c94'][contains(text(),'表示開始日時')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th['_ngcontent-ucx-c94'][contains(text(),'表示開始日時')]</value>
+   </webElementProperties>
+</WebElementEntity>

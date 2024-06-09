@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_upload_msg</name>
+   <tag></tag>
+   <elementGuidId>48319f5b-28b7-4b4f-9d56-e8f47da76ccf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//html//body//app-root//app-dashboard-layout//main//app-edit//section//div//div//form//div//app-file-uploader//div//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//body//app-root//app-dashboard-layout//main//app-edit//section//div//div//form//div//app-file-uploader//div//a</value>
+   </webElementProperties>
+</WebElementEntity>

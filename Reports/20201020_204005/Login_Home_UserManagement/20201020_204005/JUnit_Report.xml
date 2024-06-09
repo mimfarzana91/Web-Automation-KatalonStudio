@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Home_UserManagement" time="184.536" tests="2" failures="0" errors="0">
+   <testsuite name="Login_Home_UserManagement" tests="2" failures="0" errors="0" time="184.536" timestamp="2020-10-20 20:40:10" hostname="User - 192.168.0.105" id="Test Suites/Login_Home_UserManagement">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\TVApp_web\\sx-tvapp-test-web\\Reports\\20201020_204005\\Login_Home_UserManagement\\20201020_204005"/>
+         <property name="logFiles" value="C:\\TVApp_web\\sx-tvapp-test-web\\Reports\\20201020_204005\\Login_Home_UserManagement\\20201020_204005\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - 192.168.0.105"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.6.1"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.0.105"/>
+         <property name="sessionId" value="2facf307-6748-4fbf-8a85-932152aa495a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/Login_test Case" time="106.516" classname="Test Cases/Login/Login_test Case" status="PASSED">
+         <system-out><![CDATA[2020-10-20 20:40:10 - [TEST_CASE][PASSED] - Test Cases/Login/Login_test Case: Test Cases/Login/Login_test Case
+
+2020-10-20 20:40:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-20 20:40:11 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-20 20:40:11 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-10-20 20:40:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-20 20:40:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-20 20:40:17 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-20 20:40:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev-admin.miltoq.com/login' successfully
+
+2020-10-20 20:40:26 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin.miltoq.com/login' successfully
+
+2020-10-20 20:40:26 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2020-10-20 20:40:26 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-20 20:40:27 - [TEST_STEP][PASSED] - loginIntoWeb.login.uiVerification(): loginIntoWeb.login.uiVerification is PASSED
+
+2020-10-20 20:40:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/header' are matched.
+
+2020-10-20 20:40:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/label_' are matched.
+
+2020-10-20 20:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is present
+
+2020-10-20 20:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:40:28 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' has attribute 'placeholder' with value 'メールアドレスを入力して下さい。'
+
+2020-10-20 20:40:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/label_' are matched.
+
+2020-10-20 20:40:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is present
+
+2020-10-20 20:40:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' has attribute 'placeholder' with value 'パスワードを入力して下さい。'
+
+2020-10-20 20:40:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:40:30 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is present
+
+2020-10-20 20:40:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' are matched.
+
+2020-10-20 20:40:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/p_' are matched.
+
+2020-10-20 20:40:31 - [MESSAGE][PASSED] - loginIntoWeb.login.uiVerification is PASSED
+
+2020-10-20 20:40:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2020-10-20 20:40:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:33 - [TEST_STEP][PASSED] - loginIntoWeb.login.maillPasswordNotSpecified(): loginIntoWeb.login.maillPasswordNotSpecified is PASSED
+
+2020-10-20 20:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:40:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/mailErrormsg' are matched.
+
+2020-10-20 20:40:35 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/login/Page_SxTvappAdmin/mailErrormsg' successfully: 'rgb(220, 96, 96)'.
+
+2020-10-20 20:40:35 - [MESSAGE][PASSED] - Actual text '#dc6060' and expected text '#dc6060' are matched  using regular expression
+
+2020-10-20 20:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:39 - [MESSAGE][PASSED] - Keys 'test@gmail.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:40:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/passwordErrormsg' are matched.
+
+2020-10-20 20:40:41 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/passwordErrormsg' successfully: 'rgb(220, 96, 96)'.
+
+2020-10-20 20:40:41 - [MESSAGE][PASSED] - Actual text '#dc6060' and expected text '#dc6060' are matched  using regular expression
+
+2020-10-20 20:40:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:44 - [MESSAGE][PASSED] - Keys '24346fdgfg@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:40:44 - [MESSAGE][PASSED] - loginIntoWeb.login.maillPasswordNotSpecified is PASSED
+
+2020-10-20 20:40:44 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-20 20:40:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-20 20:40:48 - [TEST_STEP][PASSED] - loginIntoWeb.login.mailNotInFormat(): loginIntoWeb.login.mailNotInFormat is PASSED
+
+2020-10-20 20:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:40:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:51 - [MESSAGE][PASSED] - Keys 'admin@gmailcom' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:40:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/mailErrormsg' are matched.
+
+2020-10-20 20:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:40:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:40:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:56 - [MESSAGE][PASSED] - Keys 'admingmail.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:40:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:40:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/mailErrormsg' are matched.
+
+2020-10-20 20:40:59 - [MESSAGE][PASSED] - loginIntoWeb.login.mailNotInFormat is PASSED
+
+2020-10-20 20:40:59 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-20 20:41:03 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-20 20:41:03 - [TEST_STEP][PASSED] - loginIntoWeb.login.correctmailWrongPass(): loginIntoWeb.login.correctmailWrongPass is PASSED
+
+2020-10-20 20:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:06 - [MESSAGE][PASSED] - Keys 'admin@example.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:07 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:41:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:41:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/login/Page_SxTvappAdmin/mailErrormsg' located by 'By.xpath: //div[@class='invalid-feedback'][contains(text(),'メールアドレスまたはパスワードが正しくありません。再度入力して下さい。')]' is not present after '30' second(s)
+
+2020-10-20 20:41:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/errorAlertMessage' are matched.
+
+2020-10-20 20:41:11 - [MESSAGE][PASSED] - Get CSS 'color' value on 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/errorAlertMessage' successfully: 'rgb(114, 50, 50)'.
+
+2020-10-20 20:41:11 - [MESSAGE][PASSED] - Actual text '#723232' and expected text '#723232' are matched  using regular expression
+
+2020-10-20 20:41:11 - [MESSAGE][PASSED] - loginIntoWeb.login.correctmailWrongPass is PASSED
+
+2020-10-20 20:41:11 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-20 20:41:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-20 20:41:15 - [TEST_STEP][PASSED] - loginIntoWeb.login.wrongmailCorrectPass(): loginIntoWeb.login.wrongmailCorrectPass is PASSED
+
+2020-10-20 20:41:16 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:19 - [MESSAGE][PASSED] - Keys 'dmin2@example.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:20 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:22 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:41:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/errorAlertMessage' are matched.
+
+2020-10-20 20:41:25 - [MESSAGE][PASSED] - loginIntoWeb.login.wrongmailCorrectPass is PASSED
+
+2020-10-20 20:41:25 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-20 20:41:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-20 20:41:29 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithuserMAilPass(UserMail, UserPass): loginIntoWeb.login.loginWithuserMAilPass is PASSED
+
+2020-10-20 20:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:32 - [MESSAGE][PASSED] - Keys 'mimfarzana91@gmail.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:33 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:36 - [MESSAGE][PASSED] - Keys 'Password1234@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:36 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:41:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/errorAlertMessage' are matched.
+
+2020-10-20 20:41:38 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithuserMAilPass is PASSED
+
+2020-10-20 20:41:38 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2020-10-20 20:41:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2020-10-20 20:41:42 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithValidMailPass(Admin, Pass, "Admin"): loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:43 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:45 - [MESSAGE][PASSED] - Keys 'admin@miltoq.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:41:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:41:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:41:49 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' is visible
+
+2020-10-20 20:41:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' are matched.
+
+2020-10-20 20:41:55 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:41:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-20 20:41:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Home/Home_Test_Cases" time="77.606" classname="Test Cases/Home/Home_Test_Cases" status="PASSED">
+         <system-out><![CDATA[2020-10-20 20:41:57 - [TEST_CASE][PASSED] - Test Cases/Home/Home_Test_Cases: Test Cases/Home/Home_Test_Cases
+
+2020-10-20 20:41:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-20 20:41:57 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-20 20:42:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-20 20:42:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-10-20 20:42:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-10-20 20:42:02 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://dev-admin.miltoq.com/login' successfully
+
+2020-10-20 20:42:08 - [MESSAGE][PASSED] - Navigate to 'https://dev-admin.miltoq.com/login' successfully
+
+2020-10-20 20:42:08 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2020-10-20 20:42:08 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2020-10-20 20:42:08 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithValidMailPass(Admin, Pass, "Admin"): loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:11 - [MESSAGE][PASSED] - Keys 'admin@miltoq.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:15 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:42:19 - [MESSAGE][PASSED] - Object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' is visible
+
+2020-10-20 20:42:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' are matched.
+
+2020-10-20 20:42:20 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:20 - [TEST_STEP][PASSED] - home_page.home.logout(): home_page.home.logout is PASSED
+
+2020-10-20 20:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/span_adminexamplecom' is clicked on
+
+2020-10-20 20:42:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/logout_Button' is clicked on
+
+2020-10-20 20:42:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:21 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/header' is present
+
+2020-10-20 20:42:21 - [MESSAGE][PASSED] - home_page.home.logout is PASSED
+
+2020-10-20 20:42:21 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithValidMailPass(ManagerMail, Pass, "Manager"): loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:22 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:25 - [MESSAGE][PASSED] - Keys 'rozario@miltoq.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:28 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:42:34 - [MESSAGE][PASSED] - Object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' is visible
+
+2020-10-20 20:42:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' are matched.
+
+2020-10-20 20:42:34 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:34 - [TEST_STEP][PASSED] - home_page.home.uiVerification("Manager"): home_page.home.uiVerification is PASSED
+
+2020-10-20 20:42:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/2_Nav_ユーザー管理_MSR' are matched.
+
+2020-10-20 20:42:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:35 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/content_manage' is present
+
+2020-10-20 20:42:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/4_Nav_コンテンツ管理' are matched.
+
+2020-10-20 20:42:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/5_Nav_クイズ管理' are matched.
+
+2020-10-20 20:42:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/6_Nav_プレゼント管理' are matched.
+
+2020-10-20 20:42:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/7_Nav_商品(EC)管理' are matched.
+
+2020-10-20 20:42:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/8_Nav_クーポン管理' are matched.
+
+2020-10-20 20:42:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/9_Nav_データ管理' are matched.
+
+2020-10-20 20:42:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/i_adminexamplecom_las la-user-tie' is present
+
+2020-10-20 20:42:37 - [MESSAGE][PASSED] - home_page.home.uiVerification is PASSED
+
+2020-10-20 20:42:37 - [TEST_STEP][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability("Manager"): home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:42:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Home/Page_SxTvappAdmin/1_Nav_管理ユーザー管理' located by 'By.xpath: //a[contains(text(),'管理ユーザー管理')]' is not present after '3' second(s)
+
+2020-10-20 20:42:38 - [MESSAGE][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:42:38 - [TEST_STEP][PASSED] - home_page.home.logout(): home_page.home.logout is PASSED
+
+2020-10-20 20:42:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/span_adminexamplecom' is clicked on
+
+2020-10-20 20:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/logout_Button' is clicked on
+
+2020-10-20 20:42:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:39 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/header' is present
+
+2020-10-20 20:42:39 - [MESSAGE][PASSED] - home_page.home.logout is PASSED
+
+2020-10-20 20:42:39 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithValidMailPass(SupplierMail, Pass, "Supplier"): loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:43 - [MESSAGE][PASSED] - Keys 'supplierMail@gmail.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:42:46 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:42:47 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:42:50 - [MESSAGE][PASSED] - Object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' is visible
+
+2020-10-20 20:42:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' are matched.
+
+2020-10-20 20:42:51 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:51 - [TEST_STEP][PASSED] - home_page.home.uiVerification("Supplier"): home_page.home.uiVerification is PASSED
+
+2020-10-20 20:42:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/2_Nav_ユーザー管理_MSR' are matched.
+
+2020-10-20 20:42:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:51 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/content_manage' is present
+
+2020-10-20 20:42:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/4_Nav_コンテンツ管理' are matched.
+
+2020-10-20 20:42:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/5_Nav_クイズ管理' are matched.
+
+2020-10-20 20:42:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/6_Nav_プレゼント管理' are matched.
+
+2020-10-20 20:42:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/7_Nav_商品(EC)管理' are matched.
+
+2020-10-20 20:42:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/8_Nav_クーポン管理' are matched.
+
+2020-10-20 20:42:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/9_Nav_データ管理' are matched.
+
+2020-10-20 20:42:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:54 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/i_adminexamplecom_las la-user-tie' is present
+
+2020-10-20 20:42:54 - [MESSAGE][PASSED] - home_page.home.uiVerification is PASSED
+
+2020-10-20 20:42:54 - [TEST_STEP][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability("Supplier"): home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:42:54 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Home/Page_SxTvappAdmin/1_Nav_管理ユーザー管理' located by 'By.xpath: //a[contains(text(),'管理ユーザー管理')]' is not present after '3' second(s)
+
+2020-10-20 20:42:54 - [MESSAGE][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:42:54 - [TEST_STEP][PASSED] - home_page.home.logout(): home_page.home.logout is PASSED
+
+2020-10-20 20:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/span_adminexamplecom' is clicked on
+
+2020-10-20 20:42:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/logout_Button' is clicked on
+
+2020-10-20 20:42:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:42:56 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/header' is present
+
+2020-10-20 20:42:56 - [MESSAGE][PASSED] - home_page.home.logout is PASSED
+
+2020-10-20 20:42:56 - [TEST_STEP][PASSED] - loginIntoWeb.login.loginWithValidMailPass(ContentRegister, Pass, "ContentRegister"): loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:42:57 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:42:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:42:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:43:00 - [MESSAGE][PASSED] - Keys 'contentRegister@gmail.com' sent to object: 'Object Repository/login/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is clicked on
+
+2020-10-20 20:43:01 - [MESSAGE][PASSED] - Text of object 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid' is cleared
+
+2020-10-20 20:43:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2020-10-20 20:43:03 - [MESSAGE][PASSED] - Keys 'Password123@' sent to object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/input__form-control ng-untouched ng-pristine ng-invalid'
+
+2020-10-20 20:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/login/Page_SxTvappAdmin/Page_SxTvappAdmin/button_' is clicked on
+
+2020-10-20 20:43:07 - [MESSAGE][PASSED] - Object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' is visible
+
+2020-10-20 20:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/User_Managment/Page_SxTvappAdmin/h4_' are matched.
+
+2020-10-20 20:43:08 - [MESSAGE][PASSED] - loginIntoWeb.login.loginWithValidMailPass is PASSED
+
+2020-10-20 20:43:08 - [TEST_STEP][PASSED] - home_page.home.uiVerification("ContentRegister"): home_page.home.uiVerification is PASSED
+
+2020-10-20 20:43:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/2_Nav_ユーザー管理_MSR' are matched.
+
+2020-10-20 20:43:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/content_manage' is present
+
+2020-10-20 20:43:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/4_Nav_コンテンツ管理' are matched.
+
+2020-10-20 20:43:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/5_Nav_クイズ管理' are matched.
+
+2020-10-20 20:43:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/6_Nav_プレゼント管理' are matched.
+
+2020-10-20 20:43:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/7_Nav_商品(EC)管理' are matched.
+
+2020-10-20 20:43:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/8_Nav_クーポン管理' are matched.
+
+2020-10-20 20:43:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Home/Page_SxTvappAdmin/9_Nav_データ管理' are matched.
+
+2020-10-20 20:43:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/Home/Page_SxTvappAdmin/i_adminexamplecom_las la-user-tie' is present
+
+2020-10-20 20:43:11 - [MESSAGE][PASSED] - home_page.home.uiVerification is PASSED
+
+2020-10-20 20:43:11 - [TEST_STEP][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability(RegisterMail): home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:43:11 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Home/Page_SxTvappAdmin/1_Nav_管理ユーザー管理' located by 'By.xpath: //a[contains(text(),'管理ユーザー管理')]' is not present after '3' second(s)
+
+2020-10-20 20:43:11 - [MESSAGE][PASSED] - home_page.home.contentManagerSupplierRegisterAccessability is PASSED
+
+2020-10-20 20:43:11 - [TEST_STEP][PASSED] - home_page.home.logout(): home_page.home.logout is PASSED
+
+2020-10-20 20:43:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/span_adminexamplecom' is clicked on
+
+2020-10-20 20:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Home/Page_SxTvappAdmin/logout_Button' is clicked on
+
+2020-10-20 20:43:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-20 20:43:13 - [MESSAGE][PASSED] - Object 'Object Repository/login/Page_SxTvappAdmin/header' is present
+
+2020-10-20 20:43:13 - [MESSAGE][PASSED] - home_page.home.logout is PASSED
+
+2020-10-20 20:43:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-20 20:43:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-20 20:40:10 - [TEST_SUITE][PASSED] - Login_Home_UserManagement: Test Cases/Home/Home_Test_Cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

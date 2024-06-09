@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>5mb_alert</name>
+   <tag></tag>
+   <elementGuidId>b234184e-83ca-4a07-b425-f2f2efe33ab7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>div[contains(text(),'5MB以下のファイルを選択して下さい')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>div[contains(text(),'5MB以下のファイルを選択して下さい')]</value>
+   </webElementProperties>
+</WebElementEntity>

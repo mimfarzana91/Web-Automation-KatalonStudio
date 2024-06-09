@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>update2</name>
+   <tag></tag>
+   <elementGuidId>b10c06eb-00c3-4bf3-9243-02e6d6308cf1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5['_ngcontent-uer-c109'][contains(text(),'更新')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h5['_ngcontent-uer-c109'][contains(text(),'更新')]</value>
+   </webElementProperties>
+</WebElementEntity>

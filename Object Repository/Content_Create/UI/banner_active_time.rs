@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>banner_active_time</name>
+   <tag></tag>
+   <elementGuidId>b8a00bb2-a0d6-45d8-ae0a-33075d75b01d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*/text()[normalize-space(.)='バナーインアクティブ時間(時:分:秒)']/parent::*</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='バナーインアクティブ時間(時:分:秒)']/parent::*</value>
+   </webElementProperties>
+</WebElementEntity>

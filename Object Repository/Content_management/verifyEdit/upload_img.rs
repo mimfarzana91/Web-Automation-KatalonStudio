@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_img</name>
+   <tag></tag>
+   <elementGuidId>fa20f2a0-2383-4dde-b345-1f22b777c2b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//html//body//app-root//app-dashboard-layout//main//app-edit//section//div//div//form//div//app-file-uploader//div//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//body//app-root//app-dashboard-layout//main//app-edit//section//div//div//form//div//app-file-uploader//div//a</value>
+   </webElementProperties>
+</WebElementEntity>

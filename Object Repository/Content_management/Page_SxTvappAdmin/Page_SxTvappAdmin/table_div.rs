@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_div</name>
+   <tag></tag>
+   <elementGuidId>b5eef876-bca7-4f17-a675-cbd289560589</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>コンテンツIDコンテンツ名番組名表示開始日時ステータス24rWqXOtILBrKDGame Of Thrones2020/09/23 16:15公開編集23KApWNYbXCGXHGame Of Thrones公開編集22あGame Of Thrones2020/09/08 21:00公開編集21コンテンツ１Game Of Thrones公開編集20jhgjgGame Of Thrones2020/09/17 06:00公開編集19Content9091Game Of Thrones2020/09/07 17:00非公開編集18誰も見ないでくださいGame Of Thrones2020/09/11 11:41公開編集17テスト（三木）Game Of Thrones2020/09/07 11:32公開編集16ねこねこねこねこねこねこねこねこGame Of Thrones2020/09/10 19:01公開編集15Content Ned StartGame Of Thrones2020/09/30 00:01公開編集«‹123›»</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/app-dashboard-layout[1]/main[@class=&quot;dashboard-background&quot;]/app-list[1]/section[@class=&quot;section&quot;]/div[@class=&quot;card&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div</value>
+   </webElementXpaths>
+</WebElementEntity>

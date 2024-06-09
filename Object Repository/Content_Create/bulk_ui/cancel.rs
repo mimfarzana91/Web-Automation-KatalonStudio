@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cancel</name>
+   <tag></tag>
+   <elementGuidId>331f37d0-b5c0-40d0-a40b-a4b310f587b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/app-bulk-upload[1]/div[1]/div[2]/form[1]/div[2]/button[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/app-bulk-upload[1]/div[1]/div[2]/form[1]/div[2]/button[2]</value>
+   </webElementProperties>
+</WebElementEntity>

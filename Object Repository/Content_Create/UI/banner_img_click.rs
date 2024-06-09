@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>banner_img_click</name>
+   <tag></tag>
+   <elementGuidId>2dcc9273-3d6d-4ba4-ab7d-137735620328</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[13]/app-file-uploader[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[13]/app-file-uploader[1]/div[2]</value>
+   </webElementProperties>
+</WebElementEntity>

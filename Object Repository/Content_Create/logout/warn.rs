@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>warn</name>
+   <tag></tag>
+   <elementGuidId>2e259265-666b-4c4f-bba0-f24eead9c5d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/modal-container[1]/div[1]/div[1]/app-confirm-dialog[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/modal-container[1]/div[1]/div[1]/app-confirm-dialog[1]/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

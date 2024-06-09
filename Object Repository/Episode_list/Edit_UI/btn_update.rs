@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_update</name>
+   <tag></tag>
+   <elementGuidId>e7a86ab1-e194-4c34-877b-609f28ae12af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-edit[1]/section[1]/div[1]/div[2]/form[1]/div[5]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-edit[1]/section[1]/div[1]/div[2]/form[1]/div[5]/button[1]</value>
+   </webElementProperties>
+</WebElementEntity>

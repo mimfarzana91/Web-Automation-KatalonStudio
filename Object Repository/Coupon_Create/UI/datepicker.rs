@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>datepicker</name>
+   <tag></tag>
+   <elementGuidId>7f9b0900-886a-4785-90c8-fe1b3e955b74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[5]/app-date-picker[1]/div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/app-dashboard-layout[1]/main[1]/app-create[1]/section[1]/div[1]/div[2]/form[1]/div[5]/app-date-picker[1]/div[1]</value>
+   </webElementProperties>
+</WebElementEntity>

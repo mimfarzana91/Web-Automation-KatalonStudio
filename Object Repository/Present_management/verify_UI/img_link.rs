@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_link</name>
+   <tag></tag>
+   <elementGuidId>d8032459-2374-453d-b3f1-e2ab777188d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//html//body//app-root//app-dashboard-layout//main//app-create//section//div//div//form//div//app-file-uploader//div//a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//html//body//app-root//app-dashboard-layout//main//app-create//section//div//div//form//div//app-file-uploader//div//a</value>
+   </webElementProperties>
+</WebElementEntity>

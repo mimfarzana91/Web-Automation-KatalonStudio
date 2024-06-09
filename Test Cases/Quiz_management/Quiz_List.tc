@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Quiz_List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32f5ba8f-d274-4800-8219-d31eb7293fed</testCaseGuid>
+   <variable>
+      <defaultValue>'http://d2jsv439trwp8c.cloudfront.net/login'</defaultValue>
+      <description></description>
+      <id>c19c3437-12bb-4e4e-8dc6-00c41225bf83</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin@example.com'</defaultValue>
+      <description></description>
+      <id>23b9852f-59db-4b7c-8ad2-4a169772a011</id>
+      <masked>false</masked>
+      <name>AdminMail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123@'</defaultValue>
+      <description></description>
+      <id>a47f7661-700d-4ce6-bbe0-e6faf95e7406</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'contentRegister@gmail.com'</defaultValue>
+      <description></description>
+      <id>2a47e08f-d278-4c1a-8191-c4301942f9be</id>
+      <masked>false</masked>
+      <name>ContentRegister</name>
+   </variable>
+</TestCaseEntity>

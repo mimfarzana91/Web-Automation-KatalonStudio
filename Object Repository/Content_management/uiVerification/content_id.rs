@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>content_id</name>
+   <tag></tag>
+   <elementGuidId>3143482e-de4f-40a7-8bb4-a9f680905017</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th['_ngcontent-ucx-c94'][contains(text(),'コンテンツID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th['_ngcontent-ucx-c94'][contains(text(),'コンテンツID')]</value>
+   </webElementProperties>
+</WebElementEntity>

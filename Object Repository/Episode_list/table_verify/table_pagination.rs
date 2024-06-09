@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>table_pagination</name>
+   <tag></tag>
+   <elementGuidId>162104fd-cdff-474b-84da-b87540da3aac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>番組連動企画ID番組名放送開始日時放送終了日時20教えてもらう前と後2020/09/30 22:30:002020/09/30 22:35:00編集19教えてもらう前と後2020/09/29 06:45:002020/09/29 06:55:00編集18教えてもらう前と後2020/09/28 16:10:002020/09/28 16:20:00編集17教えてもらう前と後2020/09/25 00:00:002020/09/25 01:00:00編集16Game Of Thrones2021/04/30 09:50:002021/04/30 10:00:00編集15教えてもらう前と後2020/10/31 02:09:002020/10/31 02:58:00編集14Game Of Thrones2020/09/30 12:10:002020/09/30 14:00:00編集13Game Of Thrones2020/06/29 19:55:552020/06/29 20:59:05編集12教えてもらう前と後2020/09/18 00:00:002020/09/18 23:59:59編集11教えてもらう前と後2020/10/02 17:01:002020/10/02 17:10:00編集«‹12›»</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/app-dashboard-layout[1]/main[@class=&quot;dashboard-background&quot;]/app-list[1]/section[@class=&quot;section&quot;]/div[@class=&quot;card&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div</value>
+   </webElementXpaths>
+</WebElementEntity>

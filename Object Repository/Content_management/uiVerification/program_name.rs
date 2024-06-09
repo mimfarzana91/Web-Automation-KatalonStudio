@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>program_name</name>
+   <tag></tag>
+   <elementGuidId>34f516a4-6590-41bc-981d-55bf0193cc70</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th['_ngcontent-ucx-c94'][contains(text(),'番組名')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th['_ngcontent-ucx-c94'][contains(text(),'番組名')]</value>
+   </webElementProperties>
+</WebElementEntity>

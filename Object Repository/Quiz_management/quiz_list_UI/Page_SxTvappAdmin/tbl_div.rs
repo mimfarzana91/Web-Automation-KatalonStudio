@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tbl_div</name>
+   <tag></tag>
+   <elementGuidId>516d56a0-5302-4339-8364-84e0891f33f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>クイズID問題文回答番組名ステータス25番組連動テスト2  
+期待される結果：
+・11時13分〜14分
+・バナーエリアに表示される井上じゃないGame Of Thrones公開編集24sample question1234Game Of Thrones公開編集23この番組の放送開始時間は？16:45教えてもらう前と後公開編集22What is app?no idea教えてもらう前と後非公開編集21っはshszGhさh教えてもらう前と後公開編集20ログイン時のポイントテスト八幡太郎教えてもらう前と後公開編集19tesaaaaabbbb教えてもらう前と後公開編集18もう一度テストテスト教えてもらう前と後公開編集17テストテストテストテストテストテストテストテストテストテストテストテストテスト
+
+テストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテストテスト教えてもらう前と後公開編集16バグのテストそうです教えてもらう前と後公開編集«‹123›»</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ng-tns-0-0&quot;]/app-root[1]/app-dashboard-layout[1]/main[@class=&quot;dashboard-background&quot;]/app-list[1]/section[@class=&quot;section&quot;]/div[@class=&quot;card&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='追加'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div</value>
+   </webElementXpaths>
+</WebElementEntity>

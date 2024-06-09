@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Item_ID</name>
+   <tag></tag>
+   <elementGuidId>18ae7276-1ce2-43de-91b6-378d0fa82df4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th['_ngcontent-ucx-c102'][contains(text(),'アイテムID')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th['_ngcontent-ucx-c102'][contains(text(),'アイテムID')]</value>
+   </webElementProperties>
+</WebElementEntity>

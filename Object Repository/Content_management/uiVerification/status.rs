@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>status</name>
+   <tag></tag>
+   <elementGuidId>198d630b-612c-47b9-92fc-aa643e85a584</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//th['_ngcontent-ucx-c94'][contains(text(),'ステータス')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//th['_ngcontent-ucx-c94'][contains(text(),'ステータス')]</value>
+   </webElementProperties>
+</WebElementEntity>

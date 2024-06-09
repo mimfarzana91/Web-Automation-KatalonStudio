@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Present_list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0209b23f-558d-4e52-9940-05d962781201</testCaseGuid>
+   <variable>
+      <defaultValue>'http://d2jsv439trwp8c.cloudfront.net/login'</defaultValue>
+      <description></description>
+      <id>fb0c064a-5130-4d49-a5a8-c5ed74664064</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin@example.com'</defaultValue>
+      <description></description>
+      <id>0f9b56e8-0a44-4109-b3e0-a4e5cfb7cb8b</id>
+      <masked>false</masked>
+      <name>AdminMail</name>
+   </variable>
+   <variable>
+      <defaultValue>'Password123@'</defaultValue>
+      <description></description>
+      <id>6ce3f422-97fb-4a95-84ba-4ee0205e3324</id>
+      <masked>false</masked>
+      <name>Pass</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>3c563b48-5104-4771-8858-e5a4864de5c2</id>
+      <masked>false</masked>
+      <name>UserAdmin</name>
+   </variable>
+   <variable>
+      <defaultValue>'contentRegister@gmail.com'</defaultValue>
+      <description></description>
+      <id>2f0a1d8e-5e27-4fa2-9920-30307b6c630e</id>
+      <masked>false</masked>
+      <name>ContentRegister</name>
+   </variable>
+</TestCaseEntity>

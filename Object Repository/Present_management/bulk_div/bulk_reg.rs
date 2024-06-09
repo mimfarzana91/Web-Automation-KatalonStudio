@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bulk_reg</name>
+   <tag></tag>
+   <elementGuidId>a0398310-c1e3-4787-9f92-f6b9d8602147</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root/app-dashboard-layout/main/app-create/section/app-bulk-upload/div/div/form/div/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root/app-dashboard-layout/main/app-create/section/app-bulk-upload/div/div/form/div/button[1]</value>
+   </webElementProperties>
+</WebElementEntity>
