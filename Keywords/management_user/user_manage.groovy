@@ -38,70 +38,70 @@ public class user_manage {
 		String column1 = "ユーザーID(メールアドレス)"
 		String column2 = "権限"
 
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/column1'), column1)
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/column2'),column2)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/div__loader-wrapper'), 0)
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/column1'), column1)
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/column2'),column2)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/div__loader-wrapper'), 0)
 	}
 
 	@Keyword
 	def registerUser(String email, String password){
 
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__email'))
-		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__email'), email)
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__password'))
-		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__password'), password)
-		WebUI.selectOptionByLabel(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/select_AdminContents ManagerContents SupplierContents Register'), 'Admin', false)
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/button_'))
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__email'))
+		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__email'), email)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__password'))
+		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__password'), password)
+		WebUI.selectOptionByLabel(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/select_AdminContents ManagerContents SupplierContents Register'), 'Admin', false)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/button_'))
 
 		WebUI.delay(3)
 
-		String message = WebUI.getText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/registration_Successful'))
+		String message = WebUI.getText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/registration_Successful'))
 		print (message)
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/registration_Successful'), '×\nClose\n登録が完了しました')
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/registration_Successful'), '×\nClose\n登録が完了しました')
 	}
 
 	@Keyword
 	def verifyUser (String email, String role){
 
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/div__loader-wrapper'))
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/user_email_verification'), email)
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/user_role_varifiacation'), role)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/div__loader-wrapper'))
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/user_email_verification'), email)
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/user_role_varifiacation'), role)
 	}
 
 	@Keyword
 	def editUser(String email, String password, String role){
 
 
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__email'))
-		WebUI.clearText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__email'))
-		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__email'), email)
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__password'))
-		WebUI.clearText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__password'))
-		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/input__password'), password)
-		WebUI.selectOptionByIndex(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/select_AdminContents ManagerContents SupplierContents Register'), '2')
-		//WebUI.selectOptionByIndex(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/select_AdminContents ManagerContents SupplierContents Register'), "2", false)
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/button_'))
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__email'))
+		WebUI.clearText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__email'))
+		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__email'), email)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__password'))
+		WebUI.clearText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__password'))
+		WebUI.sendKeys(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/input__password'), password)
+		WebUI.selectOptionByIndex(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/select_AdminContents ManagerContents SupplierContents Register'), '2')
+		//WebUI.selectOptionByIndex(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/select_AdminContents ManagerContents SupplierContents Register'), "2", false)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/button_'))
 
 		WebUI.delay(3)
 
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/update_successful'), '×\nClose\n更新が完了しました')
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/update_successful'), '×\nClose\n更新が完了しました')
 	}
 
 	@Keyword
 	def deleteUser(){
 
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/delete_button'))
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/h6_PopupHeader'), '確認')
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/delete_popup_body'), '本当に実行しますか？')
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/button_(Y)'), 'はい(Y)')
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/button_(N)'), 'いいえ(N)')
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/button_(N)'))
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/delete_button'))
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/h6_PopupHeader'), '確認')
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/delete_popup_body'), '本当に実行しますか？')
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/button_(Y)'), 'はい(Y)')
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/button_(N)'), 'いいえ(N)')
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/button_(N)'))
 		WebUI.delay(3)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/user_email_verification'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/user_email_verification'), 0)
 
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/delete_button'))
-		WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/button_(Y)'))
-		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/delete_succesful'), '×\nClose\n削除が完了しました')
-		WebUI.verifyElementNotPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_SxTvappAdmin/user_email_verification'), 0)
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/delete_button'))
+		WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/button_(Y)'))
+		WebUI.verifyElementText(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/delete_succesful'), '×\nClose\n削除が完了しました')
+		WebUI.verifyElementNotPresent(findTestObject('Object Repository/User_Managment/User_Management/Page_Admin/user_email_verification'), 0)
 	}
 }

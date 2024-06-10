@@ -44,27 +44,27 @@ public class quiz_list {
 		String btn= '追加'
 		String Header= header1 + '\n' + btn
 
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/header_quiz'), Header)
-		WebUI.verifyElementClickable(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/add_btn'))
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/quiz_ID'), 2)
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/quiz_ID'), 'クイズID')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/question'), 0)
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/question'), '問題文')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/reply'), 0)
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/reply'), '回答')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/program_name'), 0)
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/program_name'), '番組名')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/status'), 0)
-		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/status'), 'ステータス')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/edit_column'), 0)
-		WebUI.verifyElementClickable(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/edit_btn'))
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/header_quiz'), Header)
+		WebUI.verifyElementClickable(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/add_btn'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/quiz_ID'), 2)
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/quiz_ID'), 'クイズID')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/question'), 0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/question'), '問題文')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/reply'), 0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/reply'), '回答')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/program_name'), 0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/program_name'), '番組名')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/status'), 0)
+		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/status'), 'ステータス')
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/edit_column'), 0)
+		WebUI.verifyElementClickable(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/edit_btn'))
 	}
 
 	@Keyword
 
 	def verifyTable(){
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/tbl_div'), 0)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/full_tab'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/tbl_div'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/full_tab'), 0)
 	}
 
 	@Keyword
@@ -92,7 +92,7 @@ public class quiz_list {
 		String question = lorem1.getWords(5)
 		String answer = lorem1.getWords(1)
 
-		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/edit_btn'))
+		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/edit_btn'))
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/EditQuiz/edit_header'), 0)
 		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/EditQuiz/update'), '更新')
 		WebUI.verifyElementText(findTestObject('Object Repository/Quiz_management/EditQuiz/quiz_ID'), 'クイズID')
@@ -131,7 +131,7 @@ public class quiz_list {
 		WebUI.delay(3)
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Quiz_management/EditQuiz/success_msg'), 2)
 
-		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/edit_btn'))
+		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/edit_btn'))
 		WebUI.delay(5)
 
 		String QuestionPaper = WebUI.getAttribute(findTestObject('Object Repository/Quiz_management/EditQuiz/input__question'), 'attribute')
@@ -176,14 +176,14 @@ public class quiz_list {
 
 	def verifyContentRegisterAccess(){
 
-		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/quiz_sidebar'))
-		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/edit_btn'))
+		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/quiz_sidebar'))
+		WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/edit_btn'))
 
 		String status =""
 
 		if (status == "公開"){
 
-			WebUI.verifyElementChecked(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/status'), 2)
+			WebUI.verifyElementChecked(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/status'), 2)
 			WebUI.verifyElementNotClickable(findTestObject('Object Repository/Quiz_management/EditQuiz/status'))
 		}
 		else{

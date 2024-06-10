@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>bda6ef40-bfe1-4c68-9fad-726ad7ab953f</testCaseGuid>
    <variable>
-      <defaultValue>'http://d2jsv439trwp8c.cloudfront.net/login'</defaultValue>
+      <defaultValue>'http:/test/login'</defaultValue>
       <description></description>
       <id>ce7329cd-bdbb-4960-8a6a-4ac15fe18276</id>
       <masked>false</masked>

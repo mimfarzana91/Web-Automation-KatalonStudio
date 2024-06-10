@@ -27,7 +27,7 @@ WebUI.waitForPageLoad(10)
 
 CustomKeywords.'loginIntoWeb.login.loginWithValidMailPass'(GlobalVariable.Admin,GlobalVariable.Pass, "Admin")
 
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/a_Useradd_button'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/a_Useradd_button'))
 CustomKeywords.'user_management.user_registration.uiVerification'()
 CustomKeywords.'user_management.user_registration.requiredFieldVerification'()
 CustomKeywords.'user_management.user_registration.mailFieldVerification'()
@@ -40,28 +40,28 @@ String emailId= mailAdres + number + mailaddress2;
 
 CustomKeywords.'user_management.user_registration.successfulRegistration'(emailId, GlobalVariable.Pass)
 WebUI.delay(03)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/a_Useradd_button'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/a_Useradd_button'))
 
 CustomKeywords.'user_management.user_registration.RegisterddMailRegistration'(emailId, GlobalVariable.Pass)
 
 
 WebUI.delay(02)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/span_adminexamplecom'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/span_adminexamplecom'))
 WebUI.delay(02)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/a_Logout'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/a_Logout'))
 WebUI.delay(02)
 CustomKeywords.'loginIntoWeb.login.loginWithValidMailPass'(GlobalVariable.ManagerMail,GlobalVariable.Pass,"Content Manager")
 
 WebUI.delay(02)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/span_adminexamplecom'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/span_adminexamplecom'))
 WebUI.delay(02)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/a_Logout'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/a_Logout'))
 CustomKeywords.'loginIntoWeb.login.loginWithValidMailPass'(GlobalVariable.ContentRegister,GlobalVariable.Pass,"Content Register") 
 
 
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/span_adminexamplecom'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/span_adminexamplecom'))
 WebUI.delay(02)
-WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_SxTvappAdmin/a_Logout'))
+WebUI.click(findTestObject('Object Repository/User_Managment/User_Registration/Page_Admin/a_Logout'))
 CustomKeywords.'loginIntoWeb.login.loginWithValidMailPass'(GlobalVariable.SupplierMail,GlobalVariable.Pass,"Content Supplier") 
 
 WebUI.closeBrowser()

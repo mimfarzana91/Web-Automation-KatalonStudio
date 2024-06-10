@@ -25,7 +25,7 @@ WebUI.waitForPageLoad(10)
 CustomKeywords.'loginIntoWeb.login.loginWithValidMailPass'(GlobalVariable.Admin, GlobalVariable.Pass, "Admin")
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_SxTvappAdmin/quiz_sidebar'))
+WebUI.click(findTestObject('Object Repository/Quiz_management/quiz_list_UI/Page_Admin/quiz_sidebar'))
 
 CustomKeywords.'quiz_management.quiz_list.verifyQuizlistUI'()
 WebUI.delay(5)

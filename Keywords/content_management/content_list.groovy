@@ -55,8 +55,8 @@ public class content_list {
 	@Keyword
 	def tableVerification(){
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/Page_SxTvappAdmin/Page_SxTvappAdmin/table_div'), 0)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/Page_SxTvappAdmin/tab_div'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/Page_Admin/Page_Admin/table_div'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/Page_Admin/tab_div'), 0)
 	}
 
 	@Keyword
@@ -120,7 +120,7 @@ public class content_list {
 		WebUI.verifyElementText(findTestObject('Object Repository/Content_management/verifyEdit/item'), '紐付けアイテム')
 		WebUI.click(findTestObject('Object Repository/Content_management/verifyEdit/update_btn'))
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/verifyEdit/Page_SxTvappAdmin/div_Close'), 0)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Content_management/verifyEdit/Page_Admin/div_Close'), 0)
 
 		WebUI.click(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/verify/edit'))
 		String contentName = WebUI.getAttribute(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/verify/content__name'), 'value')

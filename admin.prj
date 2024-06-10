@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>sp-tv-app-admin</name>
+   <name>app-admin</name>
    <tag></tag>
    <UUID>243fbff6-9766-49f0-bb4e-867aa3c18fab</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\TVApp_web\sx-tvapp-test-web\sp-tv-app-admin.prj</projectFileLocation>
+   <projectFileLocation>C:\TVApp_web\test-web\-app-admin.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

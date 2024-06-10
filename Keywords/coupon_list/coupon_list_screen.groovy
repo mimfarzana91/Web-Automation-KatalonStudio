@@ -25,7 +25,7 @@ public class coupon_list_screen {
 	@Keyword
 	def uiVerification(){
 
-		WebUI.click(findTestObject('Object Repository/Home/Page_SxTvappAdmin/8_Nav_クーポン管理'))
+		WebUI.click(findTestObject('Object Repository/Home/Page_Admin/8_Nav_クーポン管理'))
 
 		String header1="クーポン管理"
 		String header2="追加"

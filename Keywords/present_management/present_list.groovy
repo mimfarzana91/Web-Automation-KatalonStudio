@@ -92,13 +92,13 @@ public class present_list {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Present_list/Page_editPresent/presentImage'), 0)
 		WebUI.delay(5)
 		String filePath = RunConfiguration.getProjectDir().replace("/", "\\") + '\\Data Files\\succu.JPG'
-		uploadFile(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/Page_SxTvappAdmin/button_Upload Image'), filePath)
+		uploadFile(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/Page_Admin/button_Upload Image'), filePath)
 		WebUI.delay(2)
 
 		WebUI.verifyElementText(findTestObject('Object Repository/Present_list/Page_editPresent/WARN'), '5MB以下のファイルを選択して下さい')
 		WebUI.delay(2)
 		String filePath2= RunConfiguration.getProjectDir().replace("/", "\\") + '\\Data Files\\gift.JPG'
-		uploadFile(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/Page_SxTvappAdmin/button_Upload Image'), filePath2)
+		uploadFile(findTestObject('Object Repository/Content_management/verifyEdit/Page_edit/Page_Admin/button_Upload Image'), filePath2)
 		WebUI.delay(5)
 		WebUI.verifyElementText(findTestObject('Object Repository/Present_list/Page_editPresent/img_upload_msg'), '登録済の画像を確認する')
 		WebUI.verifyElementClickable(findTestObject('Object Repository/Present_list/Page_editPresent/img_upload_msg'))
